@@ -1,0 +1,61 @@
+body{
+    padding-bottom: 1000px;
+}
+
+.div-1a, .div-2a, .div-3c, .div-3b, .div-4a, .div-4c{
+    background: lightblue;
+
+}
+.div-1b, .div-2b, .div-3a, .div-4b{
+    background: lightpink;
+}
+.flex-1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flex-2{
+    display: flex;
+    flex-direction: row;
+}
+.div-2a{
+    width:100px
+}
+
+.div-2b{
+    flex: 1;
+}
+
+.flex-3{
+    display: flex;
+    flex-direction: row;
+}
+.div-3a{
+    width: 100px;
+}
+.div-3b{
+    flex:1;
+}
+.div-3c{
+    flex: 2;
+}
+.flex-4{
+display: flex;
+flex-direction: row;
+height: 70px;
+border: 1px solid gray;
+justify-content: center;
+align-items:center;
+}
+.div-4a{
+    width: 100px;
+
+}
+.div-4b{
+    width: 100px;
+
+}
+.div-4c{
+    width: 100px;
+} 
